@@ -5,7 +5,7 @@
     <i class="checkBtn fa fa-check" aria-hidden="true"></i>
     {{ todoItem }}
     <span class="removeBtn" type="button" @click="removeTodo(todoItem, index)">
-      <i class="far fa-trash-alt" aria-hidden="true"></i>
+      <i class="fa fa-trash-o" aria-hidden="true"></i>
     </span>
   </li>
 </transition-group>
